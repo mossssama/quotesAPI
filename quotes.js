@@ -1,0 +1,35 @@
+const quotes = [
+    { author: "Abraham Lincoln", text: "Whatever you are, be a good one" },
+    { author: "Jean-Paul Sartre", text: "Hell is other people" },
+    { author: "Sir Francis Bacon", text: "Knowledge is power" },
+    { author: "Albert Einstein", text: "Life is like riding a bicycle. To keep your balance, you must keep moving" },
+    { author: "Walt Disney", text: "If you can dream it, you can do it" },
+    { author: "Vince Lombardi", text: "Winners never quit and quitters never win" },
+    { author: "Les Brown", text: "The harder the battle, the sweeter the victory" },
+    { author: "Theodore Roosevelt", text: "Speak softly and carry a big stick" },
+    { author: "Michael Jordan", text: "There are no shortcuts in life" },
+    { author: "Winston Churchill", text: "The price of greatness is responsibility" },
+    { author: "Hellen Keller", text: "Life is either a daring adventure or nothing at all" },
+    { author: "Confucius", text: "Life is really simple, but we insist on making it complicated" },
+    { author: "Thomas Edison", text: "I failed my way to success" },
+    { author: "Lady Gaga", text: "I'm not here to be perfect, I'm here to be real" },
+    { author: "Steve Jobs", text: "Your time is limited, don't waste it living someone else's life" },
+    { author: "Oprah Winfrey", text: "The best way to find out what you want in life is to try a lot of things" },
+    { author: "Lily Tomlin", text: "The road to success is always under construction" },
+    { author: "Stan Lee", text: "I'm not a self-made man. I've had a lot of help" },
+    { author: "Tony Robbins", text: "You've got to be in it to win it" },
+    { author: "Will Rogers", text: "Don't let yesterday take up too much of today" },
+    { author: "Nelson Mandela", text: "The greatest glory in living lies not in never falling, but in rising every time we fall" },
+    { author: "Oscar Wilde", text: "Be yourself; everyone else is already taken" },
+    { author: "Benjamin Franklin", text: "Well done is better than well said" },
+    { author: "Aristotle", text: "It is during our darkest moments that we must focus to see the light" },
+    { author: "Ralph Waldo Emerson", text: "Life is a succession of lessons which must be lived to be understood" },
+    { author: "Dalai Lama", text: "The purpose of our lives is to be happy" },
+    { author: "Mae West", text: "You only live once, but if you do it right, once is enough" },
+    { author: "John Wooden", text: "Do not let making a living prevent you from making a life" },
+    { author: "Hellen Keller", text: "Life is either a daring adventure or nothing" },
+    { author: "Ray Bradbury", text: "Life is trying things to see if they work" }
+];
+
+
+module.exports = quotes;
