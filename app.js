@@ -8,6 +8,10 @@ app.get('/randomQuote', (req, res) => {
     res.status(200).json(randomQuote);
 });
 
+app.get('/allQuotes', (req, res) => {
+    res.status(200).json(quotes);
+});
+
 app.listen(PORT, () => {
     console.log('Server is running in localHost port 3000');
 });
