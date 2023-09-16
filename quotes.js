@@ -28,7 +28,18 @@ const quotes = [
     { author: "Mae West", text: "You only live once, but if you do it right, once is enough" },
     { author: "John Wooden", text: "Do not let making a living prevent you from making a life" },
     { author: "Hellen Keller", text: "Life is either a daring adventure or nothing" },
-    { author: "Ray Bradbury", text: "Life is trying things to see if they work" }
+    { author: "Ray Bradbury", text: "Life is trying things to see if they work" },
+    { author: "Mark Twain",text:"The Secret of getting ahead is getting started" },
+    { author: "Paulo Coelho",text:"Impossible is just an opinion"},
+    { author: "Ross Simmonds",text:"Greatness only comes before hustle in the dictionary."},
+    { author: "Aly Raisman",text:"The hard days are what make you stronger"},
+    { author: "Mahatma Gandhi",text:"In a gentle way, you can shake the world"},
+    { author: "Frank Ocean", text:"Work hard in silence, let your success be the noise"},
+    { author: "Tim Notke",text:"Hard work beats talent when talent doesn’t work hard"},
+    { author: "Mother Teresa",text:"The miracle is not that we do this work, but that we are happy to do it"},
+    { author: "Maya Angelou",text:"Nothing will work unless you do"},
+    { author: "Albert Einstein",text:"In the middle of every difficulty lies opportunity"}
+
 ];
 
 
