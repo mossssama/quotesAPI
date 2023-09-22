@@ -38,8 +38,17 @@ const quotes = [
     { author: "Tim Notke",text:"Hard work beats talent when talent doesn’t work hard"},
     { author: "Mother Teresa",text:"The miracle is not that we do this work, but that we are happy to do it"},
     { author: "Maya Angelou",text:"Nothing will work unless you do"},
-    { author: "Albert Einstein",text:"In the middle of every difficulty lies opportunity"}
-
+    { author: "Albert Einstein",text:"In the middle of every difficulty lies opportunity"},
+    { author: "Lilly Pulitzer",text:"Despite the forecast, live like it's spring"},
+    { author: "Margret Tatcher",text:"You may have to fight a battle more than once to win it"},
+    { author: "Jonathan Winters",text:"If your ship doesn’t come in, swim out to it!"},
+    { author: "Les Paul",text:"Don’t say you can’t until you prove you can’t"},
+    { author: "George Skolsky",text:"Kindness is one thing you can’t give away. It always comes back"},
+    { author: "David Endings",text:"No day in which you learn something is a complete loss"},
+    { author: "Peter Drucker",text:"The best way to predict the future is to create it"},
+    { author: "Tom Stoppard",text:"Every exit is an entry somewhere else"},
+    { author: "Bruce Barton",text:"If you can give your child only one gift, let it be enthusiasm"},
+    { author: "Queen Elizabeth",text:"Memories are everyone’s second chance at happiness"},
 ];
 
 
