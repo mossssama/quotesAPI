@@ -15,8 +15,8 @@ app.get('/allQuotes', (req, res) => {
 });
 
 app.get('/paginatedQuotes', (req, res) => {
-    const page = parseInt(req.query.page) || 1; // Default to page 1 if 'page' query parameter is not provided
-    const pageSize = parseInt(req.query.pageSize) || 10; // Default page size to 10 if 'pageSize' query parameter is not provided
+    const page = parseInt(req.query.page) || 1; 
+    const pageSize = parseInt(req.query.pageSize) || 10;
 
     const paginatedQuotes = paginateQuotes(page, pageSize);
 
