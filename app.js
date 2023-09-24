@@ -14,7 +14,7 @@ app.get('/allQuotes', (req, res) => {
     res.status(200).json(quotes);
 });
 
-app.get('/paginatedQuotes', (req, res) => {
+app.get('/quotesPage', (req, res) => {
     const page = parseInt(req.query.page) || 1; 
     const pageSize = parseInt(req.query.pageSize) || 10;
 
