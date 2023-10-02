@@ -23,6 +23,15 @@ app.get('/quotesPage', (req, res) => {
     res.status(200).json(paginatedQuotes);
 });
 
+app.get('/quote/:id', (req, res) => {
+    const quoteId = parseInt(req.params.id);
+    const quote = quotes.find(q => q.id == quoteId);
+
+    if (!quote)    res.status(404).json({ message: "Quote not found" });
+    else           res.status(200).json(quote);
+    
+});
+
 app.listen(PORT, () => {
     console.log('Server is running in localhost on port 3000');
 });
